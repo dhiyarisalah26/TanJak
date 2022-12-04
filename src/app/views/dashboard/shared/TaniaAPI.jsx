@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import axios from 'axios';
-import { Divider, Input, TextField} from '@mui/material';
+import { Button, Divider, Input, TextField} from '@mui/material';
 
 const TaniaAPI = () => {
     // const userName = 'divya'
@@ -30,7 +30,8 @@ const TaniaAPI = () => {
     // }, [id])
 
     return (
-        <TextField id="outlined-basic" label="Masukkan judul berita" variant="outlined" />
+        <TextField fullWidth id="outlined-basic" label="Masukkan judul berita" variant="outlined" margin="normal"/>
+        // <Button size="large" color="primary" variant="contained" sx={{ textTransform: 'uppercase' }}> upgrade now</Button>
     );
 };
 export default TaniaAPI;

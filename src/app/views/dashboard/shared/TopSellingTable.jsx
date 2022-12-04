@@ -76,16 +76,16 @@ const TopSellingTable = () => {
           <TableHead>
             <TableRow>
               <TableCell sx={{ px: 3 }} colSpan={4}>
-                Name
+                Produk
               </TableCell>
               <TableCell sx={{ px: 0 }} colSpan={2}>
-                Revenue
+                Harga
               </TableCell>
               <TableCell sx={{ px: 0 }} colSpan={2}>
-                Stock Status
+                Status Stok
               </TableCell>
               <TableCell sx={{ px: 0 }} colSpan={1}>
-                Action
+                Aksi
               </TableCell>
             </TableRow>
           </TableHead>
@@ -101,7 +101,7 @@ const TopSellingTable = () => {
                 </TableCell>
 
                 <TableCell align="left" colSpan={2} sx={{ px: 0, textTransform: 'capitalize' }}>
-                  ${product.price > 999 ? (product.price / 1000).toFixed(1) + 'k' : product.price}
+                  Rp{product.price > 999 ? (product.price / 1000).toFixed(1) + 'k' : product.price}
                 </TableCell>
 
                 <TableCell sx={{ px: 0 }} align="left" colSpan={2}>
@@ -132,33 +132,39 @@ const TopSellingTable = () => {
 
 const productList = [
   {
-    imgUrl: '/assets/images/products/headphone-2.jpg',
-    name: 'earphone',
-    price: 100,
+    imgUrl: '/assets/images/beras.png',
+    name: 'Beras',
+    price: 14000,
     available: 15,
   },
   {
-    imgUrl: '/assets/images/products/headphone-3.jpg',
-    name: 'earphone',
-    price: 1500,
+    imgUrl: '/assets/images/jagung.png',
+    name: 'Jagung',
+    price: 6000,
     available: 30,
   },
   {
-    imgUrl: '/assets/images/products/iphone-2.jpg',
-    name: 'iPhone x',
-    price: 1900,
+    imgUrl: '/assets/images/cabai.png',
+    name: 'Cabai',
+    price: 50000,
     available: 35,
   },
   {
-    imgUrl: '/assets/images/products/iphone-1.jpg',
-    name: 'iPhone x',
-    price: 100,
+    imgUrl: '/assets/images/ayam.png',
+    name: 'Ayam',
+    price: 40000,
     available: 0,
   },
   {
-    imgUrl: '/assets/images/products/headphone-3.jpg',
-    name: 'Head phone',
-    price: 1190,
+    imgUrl: '/assets/images/bawang-merah.jpg',
+    name: 'Bawang Merah',
+    price: 40000,
+    available: 5,
+  },
+  {
+    imgUrl: '/assets/images/bawang-putih.png',
+    name: 'Bawang Putih',
+    price: 35000,
     available: 5,
   },
 ];

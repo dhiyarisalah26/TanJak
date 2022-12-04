@@ -29,10 +29,10 @@ const Heading = styled('h6')(({ theme }) => ({
 
 const StatCards = () => {
   const cardList = [
-    { name: 'Jumlah Penduduk', amount: 3050, icon: 'group' },
-    { name: 'Sampah Jakarta', amount: '$80,500', icon: 'attach_money' },
-    { name: 'Jumlah Penderita COVID-19', amount: '8.5% Stock Surplus', icon: 'store' },
-    { name: 'Ketersediaan Rumah Sakit', amount: '305 Orders', icon: 'shopping_cart' },
+    { name: 'Jumlah Penduduk', amount:'11,25 juta jiwa', icon: 'group' },
+    { name: 'Sampah Jakarta', amount: '7.233,83 ton/hari', icon: 'delete' },
+    { name: 'Jumlah Penderita COVID-19', amount: '380 orang', icon: 'masks' },
+    { name: 'Ketersediaan Rumah Sakit', amount: '1.500 kamar', icon: 'bed' },
   ];
 
   return (

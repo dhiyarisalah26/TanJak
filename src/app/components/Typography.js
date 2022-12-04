@@ -20,6 +20,7 @@ export const H1 = ({ children, className, ellipsis, textTransform, ...props }) =
       fontSize="28px"
       fontWeight="500"
       lineHeight="1.5"
+      // color: '//#2EA3CC'
       {...props}
     >
       {children}

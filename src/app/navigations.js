@@ -1,47 +1,101 @@
 export const navigations = [
   { name: 'Dashboard', path: '/dashboard/default', icon: 'dashboard' },
-  { label: 'PAGES', type: 'label' },
+  { label: 'DOMAIN', type: 'label' },
+
   {
-    name: 'Session/Auth',
-    icon: 'security',
+    name: 'Economy',
+    icon: 'attach_money',
+    badge: { color: 'secondary' },
     children: [
-      { name: 'Sign in', iconText: 'SI', path: '/session/signin' },
-      { name: 'Sign up', iconText: 'SU', path: '/session/signup' },
-      { name: 'Forgot Password', iconText: 'FP', path: '/session/forgot-password' },
-      { name: 'Error', iconText: '404', path: '/session/404' },
-    ],
-  },
-  { label: 'Components', type: 'label' },
-  {
-    name: 'Components',
-    icon: 'favorite',
-    badge: { value: '30+', color: 'secondary' },
-    children: [
-      { name: 'Auto Complete', path: '/material/autocomplete', iconText: 'A' },
-      { name: 'Buttons', path: '/material/buttons', iconText: 'B' },
-      { name: 'Checkbox', path: '/material/checkbox', iconText: 'C' },
-      { name: 'Dialog', path: '/material/dialog', iconText: 'D' },
-      { name: 'Expansion Panel', path: '/material/expansion-panel', iconText: 'E' },
-      { name: 'Form', path: '/material/form', iconText: 'F' },
-      { name: 'Icons', path: '/material/icons', iconText: 'I' },
-      { name: 'Menu', path: '/material/menu', iconText: 'M' },
-      { name: 'Progress', path: '/material/progress', iconText: 'P' },
-      { name: 'Radio', path: '/material/radio', iconText: 'R' },
-      { name: 'Switch', path: '/material/switch', iconText: 'S' },
-      { name: 'Slider', path: '/material/slider', iconText: 'S' },
-      { name: 'Snackbar', path: '/material/snackbar', iconText: 'S' },
-      { name: 'Table', path: '/material/table', iconText: 'T' },
+      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
     ],
   },
   {
-    name: 'Charts',
-    icon: 'trending_up',
+    name: 'Education',
+    icon: 'school',
+    badge: { color: 'secondary' },
+    children: [
+      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
+    ],
+  },
+  {
+    name: 'Energy',
+    icon: 'bolt',
+    badge: { color: 'secondary' },
+    children: [
+      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
+    ],
+  },
+  {
+    name: 'Environment',
+    icon: 'grass',
+    badge: { color: 'secondary' },
+    children: [
+      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
+    ],
+  },
+  {
+    name: 'Finance',
+    icon: 'payments',
+    badge: { color: 'secondary' },
+    children: [
+      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
+    ],
+  },
+  {
+    name: 'Governance',
+    icon: 'account_balance',
+    badge: { color: 'secondary' },
+    children: [
+      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
+    ],
+  },
+  {
+    name: 'Health',
+    icon: 'healing',
+    badge: { color: 'secondary' },
+    children: [
+      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
+    ],
+  },
+  {
+    name: 'Tourism',
+    icon: 'luggage',
     children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
   },
   {
-    name: 'Documentation',
-    icon: 'launch',
-    type: 'extLink',
-    path: 'http://demos.ui-lib.com/matx-react-doc/',
+    name: 'Safety',
+    icon: 'security',
+    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
+  },
+  {
+    name: 'Shelter',
+    icon: 'house',
+    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
+  },
+  {
+    name: 'Telecommunication',
+    icon: 'phone',
+    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
+  },
+  {
+    name: 'Transportation',
+    icon: 'directions_car',
+    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
+  },
+  {
+    name: 'Urban Planning',
+    icon: 'location_city',
+    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
+  },
+  {
+    name: 'Water and Sanitation',
+    icon: 'local_drink',
+    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
+  },
+  {
+    name: 'Waste Management',
+    icon: 'restore_from_trash',
+    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
   },
 ];
