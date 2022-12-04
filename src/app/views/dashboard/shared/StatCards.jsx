@@ -30,9 +30,9 @@ const Heading = styled('h6')(({ theme }) => ({
 const StatCards = () => {
   const cardList = [
     { name: 'Jumlah Penduduk', amount: 3050, icon: 'group' },
-    { name: 'This week Sales', amount: '$80,500', icon: 'attach_money' },
-    { name: 'Inventory Status', amount: '8.5% Stock Surplus', icon: 'store' },
-    { name: 'Orders to deliver', amount: '305 Orders', icon: 'shopping_cart' },
+    { name: 'Sampah Jakarta', amount: '$80,500', icon: 'attach_money' },
+    { name: 'Jumlah Penderita COVID-19', amount: '8.5% Stock Surplus', icon: 'store' },
+    { name: 'Ketersediaan Rumah Sakit', amount: '305 Orders', icon: 'shopping_cart' },
   ];
 
   return (

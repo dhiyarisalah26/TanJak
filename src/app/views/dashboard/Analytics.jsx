@@ -8,6 +8,7 @@ import StatCards2 from './shared/StatCards2';
 import TopSellingTable from './shared/TopSellingTable';
 import UpgradeCard from './shared/UpgradeCard';
 import TestAPI from './shared/TestAPI'
+import TaniaAPI from './shared/TaniaAPI'
 
 const ContentBox = styled('div')(({ theme }) => ({
   margin: '30px',
@@ -44,7 +45,7 @@ const Analytics = () => {
           <Grid item lg={8} md={8} sm={12} xs={12}>
             <h1>TanyaJak: What's On Jakarta</h1>
             <StatCards />
-            <TestAPI />
+            {/* <TestAPI /> */}
             <TopSellingTable />
             <StatCards2 />
 
@@ -54,13 +55,14 @@ const Analytics = () => {
 
           <Grid item lg={4} md={4} sm={12} xs={12}>
             <Card sx={{ px: 3, py: 2, mb: 3 }}>
-              <Title>Traffic Sources</Title>
-              <SubTitle>Last 30 days</SubTitle>
+              <Title>Berita hari ini</Title>
+              <SubTitle>Prediksi Kebenaran Berita</SubTitle>
+              <TaniaAPI height="300px"/>
 
-              <DoughnutChart
+              {/* <DoughnutChart
                 height="300px"
                 color={[palette.primary.dark, palette.primary.main, palette.primary.light]}
-              />
+              /> */}
             </Card>
 
             <UpgradeCard />
