@@ -57,6 +57,7 @@ const Analytics = () => {
           <Grid item lg={4} md={4} sm={12} xs={12}>
             <Card sx={{ px: 3, py: 2, mb: 3 }}>
               <Title>Validitas Berita</Title>
+              {/* <TestAPI/> */}
               <TaniaAPI height="300px"/>
               {/* <DoughnutChart
                 height="300px"

@@ -6,7 +6,7 @@ export const navigations = [
     name: 'Economy',
     icon: 'attach_money',
     badge: { color: 'secondary' },
-    children: [{ name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }],
+    children: [{ name: 'Data Pekerjaan', path: '/dashboard/pekerjaanTable', iconText: 'A' }],
   },
   {
     name: 'Education',
