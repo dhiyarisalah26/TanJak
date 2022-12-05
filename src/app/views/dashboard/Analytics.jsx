@@ -49,7 +49,7 @@ const Analytics = () => {
             <TopSellingTable />
             <StatCards2 />
 
-            <H4>Ongoing Projects</H4>
+            {/* <H4>Ongoing Projects</H4> */}
             <RowCards />
           </Grid>
 

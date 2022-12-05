@@ -44,12 +44,12 @@ const RowCards = () => {
   const { palette } = useTheme();
   const textMuted = palette.text.secondary;
 
-  return [1, 2, 3, 4].map((id) => (
+  return [-1].map((id) => (
     <Fragment key={id}>
-      <Card sx={{ py: 1, px: 2 }} className="project-card">
-        <Grid container alignItems="center">
-          <Grid item md={5} xs={7}>
-            <Box display="flex" alignItems="center">
+      <Card sx={{ py: 0, px: 0 }} className="project-card">
+        {/* <Grid container alignItems="center">
+          <Grid item md={5} xs={7}> */}
+            {/* <Box display="flex" alignItems="center">
               <Checkbox />
               <Hidden smDown>
                 {id % 2 === 1 ? (
@@ -86,9 +86,9 @@ const RowCards = () => {
               <IconButton>
                 <Icon>more_vert</Icon>
               </IconButton>
-            </Box>
-          </Grid>
-        </Grid>
+            </Box> */}
+          {/* </Grid>
+        </Grid> */}
       </Card>
       <Box py={1} />
     </Fragment>

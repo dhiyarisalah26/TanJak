@@ -6,62 +6,48 @@ export const navigations = [
     name: 'Economy',
     icon: 'attach_money',
     badge: { color: 'secondary' },
-    children: [
-      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
-    ],
+    children: [{ name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }],
   },
   {
     name: 'Education',
     icon: 'school',
     badge: { color: 'secondary' },
-    children: [
-      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
-    ],
+    children: [{ name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }],
   },
   {
     name: 'Energy',
     icon: 'bolt',
     badge: { color: 'secondary' },
-    children: [
-      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
-    ],
+    children: [{ name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }],
   },
   {
     name: 'Environment',
     icon: 'grass',
     badge: { color: 'secondary' },
-    children: [
-      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
-    ],
+    children: [{ name: 'Air Quality', path: '/material/autocomplete', iconText: 'A' }],
   },
   {
     name: 'Finance',
     icon: 'payments',
     badge: { color: 'secondary' },
-    children: [
-      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
-    ],
+    children: [{ name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }],
   },
   {
     name: 'Governance',
     icon: 'account_balance',
     badge: { color: 'secondary' },
-    children: [
-      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
-    ],
+    children: [{ name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }],
   },
   {
     name: 'Health',
     icon: 'healing',
     badge: { color: 'secondary' },
-    children: [
-      { name: 'Pantau Kurs', path: '/material/autocomplete', iconText: 'A' }
-    ],
+    children: [{ name: 'Ketersediaan Rumah Sakit', path: '/material/autocomplete', iconText: 'A' }],
   },
   {
     name: 'Tourism',
     icon: 'luggage',
-    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
+    children: [{ name: 'Monumen di Jakarta', path: '/charts/echarts', iconText: 'E' }],
   },
   {
     name: 'Safety',
@@ -81,7 +67,7 @@ export const navigations = [
   {
     name: 'Transportation',
     icon: 'directions_car',
-    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
+    children: [{ name: 'Zona Parkir Tersedia', path: '/charts/echarts', iconText: 'E' }],
   },
   {
     name: 'Urban Planning',
@@ -96,6 +82,6 @@ export const navigations = [
   {
     name: 'Waste Management',
     icon: 'restore_from_trash',
-    children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
+    children: [{ name: 'Jadwal Pembuangan', path: '/charts/echarts', iconText: 'E' }],
   },
 ];
