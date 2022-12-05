@@ -1,6 +1,6 @@
 import { Card, Grid, styled, useTheme } from '@mui/material';
 import { Fragment } from 'react';
-import Campaigns from './shared/Campaigns';
+// import Campaigns from './shared/Campaigns';
 import DoughnutChart from './shared/Doughnut';
 import RowCards from './shared/RowCards';
 import StatCards from './shared/StatCards';
@@ -9,6 +9,7 @@ import TopSellingTable from './shared/TopSellingTable';
 import UpgradeCard from './shared/UpgradeCard';
 import TestAPI from './shared/TestAPI'
 import TaniaAPI from './shared/TaniaAPI'
+import Details from './shared/DetailsWeather.js'
 
 const ContentBox = styled('div')(({ theme }) => ({
   margin: '30px',
@@ -57,7 +58,6 @@ const Analytics = () => {
             <Card sx={{ px: 3, py: 2, mb: 3 }}>
               <Title>Validitas Berita</Title>
               <TaniaAPI height="300px"/>
-
               {/* <DoughnutChart
                 height="300px"
                 color={[palette.primary.dark, palette.primary.main, palette.primary.light]}
@@ -65,7 +65,10 @@ const Analytics = () => {
             </Card>
 
             <UpgradeCard />
-            <Campaigns />
+            <Details />
+          </Grid>
+          <Grid item lg={4} md={4} sm={12} xs={12}>
+            {/* <Details/> */}
           </Grid>
         </Grid>
       </ContentBox>
