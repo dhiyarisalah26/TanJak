@@ -73,11 +73,12 @@ const JwtRegister = () => {
         <Grid container>
           <Grid item sm={6} xs={12}>
             <ContentBox>
-              <img
+              <img src="/assets/images/jaki.png" width="100%" alt="" />
+              {/* <img
                 width="100%"
                 alt="Register"
                 src="/assets/images/illustrations/posting_photo.svg"
-              />
+              /> */}
             </ContentBox>
           </Grid>
 
@@ -155,7 +156,7 @@ const JwtRegister = () => {
                       variant="contained"
                       sx={{ mb: 2, mt: 3 }}
                     >
-                      Regiser
+                      Register
                     </LoadingButton>
 
                     <Paragraph>
