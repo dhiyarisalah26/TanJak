@@ -25,8 +25,8 @@ const Brand = ({ children }) => {
     <BrandRoot>
       <Box display="flex" alignItems="center">
         {/* <MatxLogo /> */}
+        <img src="/assets/images/jaki2.png" width="100%" alt="" />
         <StyledSpan mode={mode} className="sidenavHoverShow">
-          TanyaJak
         </StyledSpan>
       </Box>
 

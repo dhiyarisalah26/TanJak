@@ -20,7 +20,7 @@ const ContentBox = styled(Box)(() => ({
 }));
 
 const JWTRoot = styled(JustifyBox)(() => ({
-  background: '#1A2038',
+  background: '#092867',
   minHeight: '100% !important',
   '& .card': {
     maxWidth: 800,
@@ -70,7 +70,7 @@ const JwtLogin = () => {
         <Grid container>
           <Grid item sm={6} xs={12}>
             <JustifyBox p={4} height="100%" sx={{ minWidth: 320 }}>
-              <img src="/assets/images/illustrations/dreamer.svg" width="100%" alt="" />
+              <img src="/assets/images/jaki.png" width="100%" alt="" />
             </JustifyBox>
           </Grid>
 
